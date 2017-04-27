@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Upbeat</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView1">The 3D Acceleration Values Are: </string>
+    <string name="textView2">Your accelerometer is not on.</string>
+    <string name="textView3">The Shake Detector Detects: </string>
+    <string name="textView4">Shake/ No Shake </string>
+    <string name="edit_message">Please Enter Your Threshold (8~15) </string>
+    <string name="button_start">START</string>
+    <string name="button_stop">STOP</string>
+    <string name="textView5">The Barometer Detects: </string>
+    <string name="textView6">Your barometer is not available.</string>
+    <string name="button_baro">Barometer</string>
+    <string name="humdrum">This does nothing</string>
+    <string name="HelenXU"> Gives beautiful instructions</string>
+    <string name="tutorial">Upbeat Tutorial</string>
+    <string name="upswingtext">Swing <font color='#e0ee78'>Up</font> to Hit\na <font color='#e0ee78'>Snare Drum</font></string>
+    <string name="downsingtext">Swing <font color='#e0ee78'>Down</font> to play\na <font color='#e0ee78'>Rim Shot</font></string>
+    <string name="leftflicktext">Flick <font color='#e0ee78'>Left</font> to Hit\na <font color='#e0ee78'>Hi Hat Cymbal</font></string>
+    <string name="rightflicktext">Flick <font color='#e0ee78'>Right</font> to hit\na <font color='#e0ee78'>Tom Tom Drum</font></string>
+    <string name="righttwisttext">Twist <font color='#e0ee78'>Right</font> to Hit\na <font color='#e0ee78'>Crash Cymbal</font></string>
+    <string name="lefttwisttext">Twist <font color='#e0ee78'>Left</font> to Hit\na <font color='#e0ee78'>Bass Drum</font></string>
+    <string name="up">UP</string>
+    <string name="beat">Beat</string>
+</resources>

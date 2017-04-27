@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hxu.drumset.TutorialX"
+    android:background="#1873c2">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tutorial"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/righttwist"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@drawable/tutorialtwistright" />
+
+    <TextView
+        android:id="@+id/righttwisttext"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/righttwisttext"
+        android:textAlignment="center"
+        android:textColor="#78E0EE"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/righttwist"
+        app:layout_constraintHorizontal_bias="0.482" />
+
+    <ImageView
+        android:id="@+id/lefttwist"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/righttwisttext"
+        app:srcCompat="@drawable/tutorialtwistleft" />
+
+    <TextView
+        android:id="@+id/lefttwisttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lefttwisttext"
+        android:textAlignment="center"
+        android:textColor="#78E0EE"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lefttwist" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="76dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/homebutton"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:layout_editor_absoluteX="300dp"
+        android:onClick="goHome"/>
+</android.support.constraint.ConstraintLayout>
